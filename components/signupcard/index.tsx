@@ -1,6 +1,6 @@
 import { signin } from "@/app/actions/auth"
 
-const LoginCard = () => {
+const SignUpCard = () => {
 	return (
 		<form action={signin}>
 			<div className="flex flex-col w-[400px] h-fit border-2 gap-8 rounded border-white">
@@ -22,4 +22,4 @@ const LoginCard = () => {
 	)
 }
 
-export default LoginCard
+export default SignUpCard

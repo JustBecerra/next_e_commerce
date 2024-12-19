@@ -1,8 +1,7 @@
-import { signin } from "@/app/actions/auth"
-
 const LoginCard = () => {
+	// const [state, action, pending] = useActionState(signin, undefined)
 	return (
-		<form action={signin}>
+		<form>
 			<div className="flex flex-col w-[400px] h-fit border-2 gap-8 rounded border-white">
 				<h1 className="text-center mt-6">Welcome to Next-E-Commerce</h1>
 				<div className="flex flex-col w-full h-1/2 gap-6 justify-center items-center">
